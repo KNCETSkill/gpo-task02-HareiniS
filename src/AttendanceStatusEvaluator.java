@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class AttendanceStatusEvaluator{
-  public static void main (String[]args){
+  public static void main(String[]args){
     Scanner c=new Scanner(System.in);
     int a = c.nextInt();
     if(a>90){
@@ -12,6 +12,5 @@ public class AttendanceStatusEvaluator{
     else{
       System.out.println("Poor");
     }
-    
   }
 }
