@@ -12,6 +12,5 @@ public class main{
     else{
       System.out.println("Poor");
     }
-    
   }
 }
