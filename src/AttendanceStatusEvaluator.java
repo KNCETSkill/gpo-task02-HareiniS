@@ -4,9 +4,9 @@ public class AttendanceStatusEvaluator{
     Scanner c=new Scanner(System.in);
     int a = c.nextInt();
     if(a>90){
-      System.out.println("Satisfactory");
+      System.out.println("Excellent");
     }
-    elseif(a>=60 && a<=85){
+    else-if(a>=60 && a<=85){
        System.out.println("Satisfactory");
      }
     else{
